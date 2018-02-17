@@ -14,7 +14,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <dependencies>
-    <!--spring-boot-starter-web 已经关联引用了SpringMVC，所以不需要额外引用SpringMVC-->
+    <!--spring-boot-starter-web 已经关联引用了SpringMVC等其他jar包，所以不需要额外引用SpringMVC-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
