@@ -21,6 +21,7 @@ public class SBDemoApplication {
         return "hello world";
     }
 
+    //main方法是一个方便快速启动的入口，通过此入口可以不用通过部署到tomcat启动，其内部会会自动加载tomcat插件进行启动，项目真正部署到Web容器后可以此入口不再具有作用
     public static void main(String[] args) {
         SpringApplication.run(SBDemoApplication.class,args);
     }
