@@ -1,6 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <!--SpringBoot主要是用来简化配置文件的快速开发框架，传统的Spring由于配置xml文件太多，不好维护，而现在多采用SpringBoot进行开发-->
   <!--所有采用SpringBoot框架的开发程序，都必须以spring-boot-starter-parent作为Parent，因为其会引用很多默认加载，不能再指定自己的Parent，不然会报错-->
   <parent>
     <groupId>org.springframework.boot</groupId>
