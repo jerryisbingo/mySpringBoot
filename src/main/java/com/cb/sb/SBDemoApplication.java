@@ -20,7 +20,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ComponentScan(value = {"com.cb.sb","com.cb.bll"}) //默认简便main入口，只扫描本包及其子包，可以通过ComponentScan数组形式指定扫描哪些包
 public class SBDemoApplication {
 
-    @Autowired MyBLL myBLL;
+    @Autowired
+    MyBLL myBLL;
 
     @RequestMapping("/hello")
     @ResponseBody
